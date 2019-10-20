@@ -48,10 +48,7 @@ for j=1:N
     NE=1;
     e=0; l=0;
     SQ=0; D=1;
-    while NE < tkr_alpha^2*D/dm^2
-        tkr_alpha^2*D/dm^2
-        NE
-        
+    while NE < tkr_alpha^2*D/dm^2        
         %Имитация функционирования системы
         sim('chart_model_vOld',Ts*Ns);
 
